@@ -9,7 +9,7 @@ class CustomerBot {
     constructor(model = "meta-llama/llama-4-scout-17b-16e-instruct") {
         this.model = model;
         this.groqApiKey = process.env.GROQ_API_KEY;
-        this.mongoUrl = process.env.MONGO_URI;
+        this.mongoUrl = process.env.MONGODB_URI;
         this.dbName = "food-delivery";
         this.client = null;
         this.db = null;
