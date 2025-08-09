@@ -18,7 +18,7 @@
     "@langchain/openai": "^0.5.11",
     "axios": "^1.7.9",
     "bcryptjs": "^2.4.3",
-    "cloudinary": "^2.7.0",
+    "cloudinary": "^1.41.3",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
